@@ -23,6 +23,7 @@ configuration.yaml végére beilleszteni, utána teljes HA restart
 lekéri a kamerák képét és betárolja a /config/www/ könyvtárba utinform_cam1, utinform_cam2 néven
 a megszerzett kamera linkeket másold bele a ? elé
 
+```
 shell_command:
   utinform_cam1: >
     bash -c 'curl -L -s -A "Mozilla/5.0" -o /config/www/utinform_cam1.jpg
@@ -31,5 +32,5 @@ shell_command:
   utinform_cam2: >
     bash -c 'curl -L -s -A "Mozilla/5.0" -o /config/www/utinform_cam2.jpg
     "https://cdnuiwebcams.utinform.hu/webcamimages/mcs033_2.jpg?lid=$(date +%s%3N)"'
-
+```
 

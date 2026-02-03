@@ -67,7 +67,7 @@ automation:
 
 ```
 # 2 generikus kamera létrehozása:
-Settings - Device & services - Add Integration - Generic Camera (ha még nincs, ha van akkor Add Camera)
+Settings - Device & services - Add Integration - Generic Camera (ha még nincs, ha van akkor Add device)
 ![HA Utinform kamera](/pictures/utinform4.jpg)
 
 - Still image URL : http://homeassistant.local:8123/local/utinform_cam1.jpg mivel localban nem képes kezelni ezért kell a "külső" URL

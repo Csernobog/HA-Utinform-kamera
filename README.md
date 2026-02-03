@@ -76,3 +76,19 @@ Settings - Device & services - Add Integration - Generic Camera (ha még nincs, 
 - Still image URL : http://homeassistant.local:8123/local/utinform_cam2.jpg 
 - ha létrejött klikk a képre, fogaskerék Name: utinform_cam_2
 
+# vertical kártya neki:
+```
+type: vertical-stack
+cards:
+  - type: picture-entity
+    entity: camera.utinform_cam_1
+    name: Útinform Cam 1
+    show_state: false
+  - type: picture-entity
+    entity: camera.utinform_cam_2
+    name: Útinform Cam 2
+    show_state: false
+```
+
+Ha mindent jól csináltál akkor ott vannak a kamerák képei:))))
+
